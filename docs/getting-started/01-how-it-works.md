@@ -2,13 +2,14 @@
 id: how-it-works
 title: How does it work
 sidebar_label: How does it work
+tags: [Getting Started]
 ---
 
 Stacked creates a simple View to ViewModel relationship that allows us to perform state management without a lot of boilerplate code. The idea is to completely separate our state from our UI to allow us to easily test and extend logic without affecting the UI. Let me show you how that works. 
 
 # Lets try it out
 
-In the app you created during the [Get Started guide](./00-overview.md) we'll create a new view called `counter`, I know, very original, but this is just to show you the basics of Stacked. To create a new view with Stacked run the following command:
+In the app you created during the [Get Started guide](00-overview.md) we'll create a new view called `counter`, I know, very original, but this is just to show you the basics of Stacked. To create a new view with Stacked run the following command:
 
 ```shell
 stacked create view counter
@@ -49,7 +50,7 @@ In addition you can also see a required override called `viewModelBuilder`. This
 
 **Build the UI from the Viewmodel, update the ViewModel and then rebuild the UI from that ViewModel.** Here's a little diagram that visually depicts the explanation below.
 
-![Stacked View-ViewModel binding Diagram](../../static/img/todo/view-viewmodel-relationship.png)
+![Stacked View-ViewModel binding Diagram](/img/todo/view-viewmodel-relationship.png)
 
 1. The `viewModelBuilder` creates our `ViewModel`
 2. Stacked passes that `ViewModel` to our `builder` function.

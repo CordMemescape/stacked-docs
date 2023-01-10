@@ -10,7 +10,7 @@ If you've followed along from the [Beginning](./00-overview.md) you would have s
 _navigationService.replaceWith(Routes.homeView);
 ```
 
-This is apart of the Stacked Services. A group of services within Stacked that helps you perform certain tasks in your code. _To learn more about What a service is, [read this](../basics-in-depth/services.md)_. 
+This is apart of the Stacked Services. A group of services within Stacked that helps you perform certain tasks in your code. _To learn more about What a service is, [read this](/basics-in-depth/services.md)_. 
 
 The services we currently have are:
 
